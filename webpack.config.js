@@ -1,12 +1,10 @@
-const path = require('path');
-
 module.exports = {
   entry: './src/index.tsx',
   resolve: {
     extensions: ['.ts', '.tsx', '.js']
   },
   output: {
-    path: path.join(__dirname, '/public'),
+    path: process.cwd() + '/public',
     filename: 'index.js'
   },
   module: {
@@ -16,5 +14,6 @@ module.exports = {
         loader: 'awesome-typescript-loader'
       }
     ]
-  }
+  },
+  mode: 'development'
 }
