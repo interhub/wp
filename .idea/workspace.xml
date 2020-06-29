@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="77ab9590-3ead-418e-951f-48e296b7a10b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/wp/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ElmWorkspace">
+    <elmProjects />
+    <settings elmCompilerPath="" elmFormatPath="" elmTestPath="" isElmFormatOnSaveEnabled="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="ProjectId" id="1dzkDlYXejaAmI85H2X1ouA1xrQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
   <component name="RunManager">
     <configuration name="ts" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/server/package.json" />
@@ -16,5 +49,68 @@
         <item itemvalue="npm.ts" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77ab9590-3ead-418e-951f-48e296b7a10b" name="Default Changelist" comment="" />
+      <created>1593435191904</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593435191904</updated>
+      <workItem from="1593435200665" duration="336000" />
+    </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1593435256798</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593435256799</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/server/server.js.map" />
+        <option value="$PROJECT_DIR$/server/server.js" />
+        <option value="$PROJECT_DIR$/server/port.js.map" />
+        <option value="$PROJECT_DIR$/server/port.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="219" y="0" key="CommitChangelistDialog2" timestamp="1593435254418">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="219" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1593435254418" />
+    <state width="215" height="583" key="GridCell.Tab.0.bottom" timestamp="1593435384416">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="215" height="583" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593435384416" />
+    <state width="215" height="583" key="GridCell.Tab.0.center" timestamp="1593435384415">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="215" height="583" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593435384415" />
+    <state width="215" height="583" key="GridCell.Tab.0.left" timestamp="1593435384415">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="215" height="583" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593435384415" />
+    <state width="215" height="583" key="GridCell.Tab.0.right" timestamp="1593435384415">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="215" height="583" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593435384415" />
+    <state x="275" y="78" key="Vcs.Push.Dialog.v2" timestamp="1593435535748">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="78" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593435535748" />
   </component>
 </project>
