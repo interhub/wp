@@ -1,16 +1,21 @@
 import express from 'express';
 import cors from 'cors';
 import PORT from './port';
+console.log('START SCRIPT')
+const app = express();
+app.use(express.json());
+app.use(express.urlencoded({extended: true}));
+app.use(cors());
 
-const App = express();
-App.use(express.json());
-App.use(express.urlencoded({extended: true}));
-App.use(cors());
-
-App.get('/', (req, res) => {
-  res.sendFile(process.cwd()+'/public/index.html');
+app.get('/', (req, res) => {
+  console.log('start')
+  res.sendFile(process.cwd()+'/public/index.html')
 });
 
-App.listen(PORT, () => {
+app.get('*', (req, res) => {
+  res.sendFile(process.cwd()+'/public'+req.url)
+});
+
+app.listen(PORT, () => {
   console.log('SERVER START ON PORT', PORT);
 });

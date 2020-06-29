@@ -1,2 +1,2 @@
 // @ts-ignore
-export default process.env.PORT || 6000;
+export default process.env.PORT || 4000;
