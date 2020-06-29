@@ -7,14 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "ts": "tsc --watch",
-    "dev": "nodemon server.js"
+    "dev": "nodemon build/server.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "", "license": "ISC",
   "dependencies": {
+    "@types/cors": "^2.8.6",
     "cors": "^2.8.5",
     "express": "^4.17.1"
-  },
-  "type": "module"
+  }
 }

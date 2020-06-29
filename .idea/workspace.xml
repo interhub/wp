@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77ab9590-3ead-418e-951f-48e296b7a10b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/wp/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp/README.md" beforeDir="false" />
+    <list default="true" id="a5bfaffc-eb3a-4154-85e3-70d03addf65c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,25 +19,70 @@
     <elmProjects />
     <settings elmCompilerPath="" elmFormatPath="" elmTestPath="" isElmFormatOnSaveEnabled="false" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="SYNC" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+        <option value="tsconfig.json" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectId" id="1dzkDlYXejaAmI85H2X1ouA1xrQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dzWwFzHX9kDEKK09zJ6Nsdh4Z3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="LET" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\lesson\wp\wp\public" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.ts">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="server" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="server" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="ts" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/server/package.json" />
+      <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="ts" />
@@ -44,9 +91,22 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="npm.ts" />
+        <item itemvalue="npm.watch" />
+        <item itemvalue="npm.server" />
+        <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
   </component>
@@ -55,62 +115,101 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="77ab9590-3ead-418e-951f-48e296b7a10b" name="Default Changelist" comment="" />
-      <created>1593435191904</created>
+      <changelist id="a5bfaffc-eb3a-4154-85e3-70d03addf65c" name="Default Changelist" comment="" />
+      <created>1593428640275</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1593435191904</updated>
-      <workItem from="1593435200665" duration="336000" />
+      <updated>1593428640275</updated>
+      <workItem from="1593428648598" duration="1805000" />
+      <workItem from="1593430855280" duration="411000" />
+      <workItem from="1593431322729" duration="3770000" />
     </task>
-    <task id="LOCAL-00001" summary="update">
-      <created>1593435256798</created>
+    <task id="LOCAL-00001" summary="one">
+      <created>1593429811428</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1593435256799</updated>
+      <updated>1593429811428</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="one 2">
+      <created>1593429825287</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593429825287</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add a bit config">
+      <created>1593431054387</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593431054387</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add a bit server config">
+      <created>1593432470629</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593432470629</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
     <option name="exactExcludedFiles">
       <list>
-        <option value="$PROJECT_DIR$/server/server.js.map" />
         <option value="$PROJECT_DIR$/server/server.js" />
         <option value="$PROJECT_DIR$/server/port.js.map" />
         <option value="$PROJECT_DIR$/server/port.js" />
+        <option value="$PROJECT_DIR$/server/server.js.map" />
       </list>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="one" />
+    <MESSAGE value="one 2" />
+    <MESSAGE value="one 2 3" />
+    <MESSAGE value="add a bit config" />
+    <MESSAGE value="add a bit server config" />
+    <option name="LAST_COMMIT_MESSAGE" value="add a bit server config" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="219" y="0" key="CommitChangelistDialog2" timestamp="1593435254418">
+    <state x="309" y="42" key="#Inspections" timestamp="1593433782743">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="219" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1593435254418" />
-    <state width="215" height="583" key="GridCell.Tab.0.bottom" timestamp="1593435384416">
+    <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1593433782743" />
+    <state x="543" y="201" key="#Notifications" timestamp="1593431339458">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="215" height="583" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593435384416" />
-    <state width="215" height="583" key="GridCell.Tab.0.center" timestamp="1593435384415">
+    <state x="543" y="201" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1593431339458" />
+    <state x="219" y="0" key="CommitChangelistDialog2" timestamp="1593432469636">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="215" height="583" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593435384415" />
-    <state width="215" height="583" key="GridCell.Tab.0.left" timestamp="1593435384415">
+    <state x="219" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1593432469636" />
+    <state width="211" height="583" key="GridCell.Tab.0.bottom" timestamp="1593435100773">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="215" height="583" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593435384415" />
-    <state width="215" height="583" key="GridCell.Tab.0.right" timestamp="1593435384415">
+    <state width="211" height="583" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593435100773" />
+    <state width="211" height="583" key="GridCell.Tab.0.center" timestamp="1593435100773">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="215" height="583" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593435384415" />
-    <state x="275" y="78" key="Vcs.Push.Dialog.v2" timestamp="1593435535748">
+    <state width="211" height="583" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593435100773" />
+    <state width="211" height="583" key="GridCell.Tab.0.left" timestamp="1593435100773">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="78" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593435535748" />
+    <state width="211" height="583" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593435100773" />
+    <state width="211" height="583" key="GridCell.Tab.0.right" timestamp="1593435100773">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="211" height="583" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593435100773" />
+    <state x="214" y="9" key="SettingsEditor" timestamp="1593431267248">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="214" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593431267247" />
+    <state x="275" y="78" key="Vcs.Push.Dialog.v2" timestamp="1593432486503">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="78" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593432486503" />
   </component>
 </project>
